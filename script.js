@@ -73,10 +73,11 @@ console.log(learn.substring(19));
 console.log(learn.includes("hi"))  /* identify the letters in that variable */
 
 //9
-var split= 'learn JavaScript';
-var split1 = split.split("");
+// var split= 'learn JavaScript';
+// var split1 = split.split("");
 
-console.log(split1);
+// console.log(split1);
+document.getElementById("demo").innerHTML = 10 > 9;
 
 //10
 var split2= 'learn JavaScript';
@@ -95,7 +96,7 @@ console.log(replaced.replace("learn Javascript","learn Javascript to 30 Days Of 
 //13
 let  character = 'learn Javascript'
 console.log(character.length);
-console.log( character.charAt(15)) ;
+console.log( character.charAt(1)) ;
 
 //14
 let character1 = 'learn Javascript'
@@ -171,4 +172,26 @@ console.log(language1.includes('on') , language2.includes('on'));
 
 //6
 var  check = "jargon";
-console.log(check.includes("jargon"));
+console.log(check.includes("gon"));
+
+//7
+let rondomnum = Math.random() * 100 ;
+console.log(rondomnum);
+
+//8
+let rondomnum1 = Math.random() *(50) + 50;
+console.log(rondomnum1);
+
+//9
+let rondomnum2 = Math.random() * 255 ;
+console.log(rondomnum2);
+
+//10
+let rondomtext = (Math.floor(Math.random() *(0) + 10)) ;
+console.log(rondomtext);
+// let rondomtextf = rondomtextf.charAt(rondomtext);
+// console.log(rondomtextf);
+
+
+
+
